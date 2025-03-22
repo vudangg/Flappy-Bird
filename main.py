@@ -6,8 +6,8 @@ import random
 pygame.init()
 
 # Màn hình
-WIDTH = 400
-HEIGHT = 600
+WIDTH = 1000
+HEIGHT = 800
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Flappy Bird")
 
@@ -26,7 +26,7 @@ GRAVITY = 0.5
 # Sức nhảy
 JUMP_POWER = -8
 # Tỉ lệ sinh cột mới sẽ được ngẫu nhiên
-MIN_PIPE_FREQUENCY = 500  # Thời gian min giữa các cột (ms)
+MIN_PIPE_FREQUENCY = 1250  # Thời gian min giữa các cột (ms)
 MAX_PIPE_FREQUENCY = 2500  # Thời gian max giữa các cột (ms)
 
 # Font chữ
